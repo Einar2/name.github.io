@@ -169,8 +169,12 @@
 
 @media screen and (max-width: 375px){
     .btn_block{
-        margin-left: -35px;
+        margin-left: 0px;
     
+    }
+    
+    .btn_slider{
+        margin: 0 -25px;
     }
     
     
