@@ -26,8 +26,7 @@
 
 .infinity_slider img{
     position: absolute;
-    width: 100%;
-    height: 600px;
+    object-fit: cover;
     
     transition: opacity ease 1s;
    
@@ -102,6 +101,12 @@
     }
     
     .btn_block{
+        height: 400px;
+    }
+    
+    .infinity_slider img{
+        object-fit: contain;
+        width: 100%;
         height: 400px;
     }
 }
