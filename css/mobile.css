@@ -121,6 +121,17 @@
     .infinity_slider img{
         height: 400px;
     }
+    
+    .infinity_slider_wrap{
+        height: 400px;
+        
+    }
+    
+    .btn_block{
+        height: 400px;
+    }
+    
+    
 }
 @media screen and (max-width: 640px){
 	nav.main_nav {
@@ -179,6 +190,21 @@
 	.owl-carousel .animated.owl-animated-in.active{
 		 animation-delay: 3s;
 	}
+    
+    
+    /*Slider*/
+    .infinity_slider img{
+        height: 300px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 300px;
+        
+    }
+    
+    .btn_block{
+        height: 300px;
+    }
     
 
 }
