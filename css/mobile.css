@@ -116,7 +116,11 @@
     
     
         
-W
+
+/*Slider*/
+    .infinity_slider img{
+        height: 400px;
+    }
 }
 @media screen and (max-width: 640px){
 	nav.main_nav {

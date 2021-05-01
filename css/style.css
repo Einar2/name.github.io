@@ -25,7 +25,8 @@
 
 .infinity_slider img{
     position: absolute;
-    object-fit: cover;
+    width: 100%;
+    height: 600px;
     
     transition: opacity ease 1s;
    
