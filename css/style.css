@@ -82,3 +82,41 @@
     align-items: center;
 }
 
+
+
+@media screen and (max-width: 768px){
+    /*Slider*/
+    .infinity_slider img{
+        height: 400px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 400px;
+        
+    }
+    
+    .btn_block{
+        height: 400px;
+    }
+}
+
+
+
+@media screen and (max-width: 640px){
+       /*Slider*/
+    .infinity_slider img{
+        height: 200px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 200px;
+        
+    }
+    
+    .btn_block{
+        height: 200px;
+        width: 30px;
+        height: 30px;
+    } 
+}
+
