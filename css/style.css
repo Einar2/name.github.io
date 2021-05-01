@@ -5,8 +5,8 @@
     overflow: hidden;
     
     margin: 0 auto;
-    animation: showGallery 15s ease-in;
-    transition-delay: opacity ease 2s;
+    animation: showGallery 10s ease-in;
+    transition-delay: opacity ease 5s;
 }
 
 .infinity_slider{
