@@ -159,6 +159,26 @@
 }
 
 
+@media screen and (max-width: 2560px){
+    .infinity_slider img{
+        height: 1000px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 1000px;
+    }
+}
+
+
+@media screen and (max-width: 2560px){
+    .infinity_slider img{
+        height: 800px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 800px;
+    }
+}
 
 @media screen and (max-width: 640px){
        /*Slider*/
