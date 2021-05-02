@@ -129,26 +129,31 @@
 @media screen and (max-width: 768px){
     /*Slider*/
     .infinity_slider img{
-        height: 400px;
+        height: 600px;
     }
     
     .infinity_slider_wrap{
-        height: 400px;
+        height: 600px;
         
     }
     
     .btn_block{
-        height: 400px;
+        height: 600px;
     }
     
     .infinity_slider img{
         object-fit: contain;
         width: 100%;
-        height: 400px;
+        height: 600px;
     }
     
     .btn_slider{
         padding: 100px 20px;
+    }
+    
+/*Circle*/
+    .circles{
+        margin: -60px auto;
     }
 }
 
@@ -157,16 +162,17 @@
 @media screen and (max-width: 640px){
        /*Slider*/
     .infinity_slider img{
-        height: 300px;
+        height: 400px;
+        object-fit: cover;
     }
     
     .infinity_slider_wrap{
-        height: 300px;
+        height: 400px;
         
     }
     
     .btn_block{
-        height: 300px;
+        height: 400px;
        
     } 
     
@@ -179,7 +185,7 @@
 /*circles*/
     
     .circles{
-       margin: -15px auto;
+       margin: 10px auto;
     }
 }
 
@@ -204,7 +210,7 @@
     
     .circles{
         width: 50px;
-       margin: -25px auto;
+       margin: 5px auto;
     }
     
     .slide_circle{
@@ -229,7 +235,7 @@
         /*circles*/
     
     .circles{
-       margin: -45px auto;
+       margin: 5px auto;
     }
     
     .slide_circle{
