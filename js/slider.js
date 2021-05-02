@@ -3,6 +3,7 @@ let blocks = document.querySelectorAll(".img_block");
 let circles = document.querySelectorAll(".slide_circle");
 let step = 0;
 
+
 function slider(){
     
     for(let i = 0; i < images.length; i++){
@@ -23,6 +24,8 @@ function slider(){
     }
     
     circles[step].classList.add("active_slide");
+    
+
 }
 
 
@@ -37,6 +40,18 @@ function slider_2(){
 slider_2();
 slider();
 
+    
+ let time = setInterval(function(){
+if(step + 1 == images.length){
+        step = 0;
+    }
+    else{
+        step++;
+    }
+    slider();
+    
+},5000);
+
 
 document.querySelector(".left").onclick = function(){
     
@@ -47,6 +62,7 @@ document.querySelector(".left").onclick = function(){
         step--;
     }
     slider();
+    clearInterval(time);
 };
 document.querySelector(".rigth").onclick = function(){
     if(step + 1 == images.length){
@@ -56,4 +72,6 @@ document.querySelector(".rigth").onclick = function(){
         step++;
     }
     slider();
+    clearInterval(time);
+    
 };
