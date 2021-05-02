@@ -174,7 +174,7 @@
 /*circles*/
     
     .circles{
-       margin: 5px auto;
+       margin: -15px auto;
     }
 }
 
@@ -198,7 +198,7 @@
     /*circles*/
     
     .circles{
-       margin: 15px auto;
+       margin: -15px auto;
     }
     
     .slide_circle{
@@ -216,7 +216,7 @@
     }
     
     .btn_slider{
-        margin: 0 25px;
+        margin: 0 -25px;
     }
     
     
