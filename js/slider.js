@@ -1,5 +1,6 @@
 let images = document.querySelectorAll(".infinity_slider img");
 let blocks = document.querySelectorAll(".img_block");
+let circles = document.querySelectorAll(".slide_circle");
 let step = 0;
 
 function slider(){
@@ -15,6 +16,13 @@ function slider(){
     setTimeout(function(){
         slider_2();
     },1000)
+    
+ //circle
+    for(let k = 0; k < circles.length; k++ ){
+        circles[k].classList.remove("active_slide");
+    }
+    
+    circles[step].classList.add("active_slide");
 }
 
 
