@@ -5,7 +5,7 @@
     overflow: hidden;
     
     margin: 0 auto;
-    animation: showGallery 15s ease-in;
+    animation: showGallery 10s ease-in;
     transition-delay: opacity ease 10s;
     transition-duration: opacity ease 10s;
 }
