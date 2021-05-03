@@ -40,7 +40,7 @@
     z-index: 111;
     cursor: pointer;
     margin: 0 20px;
-    padding: 100px 50px;
+    padding: 500px 0px;
     
 }
 
@@ -127,6 +127,38 @@
 
 
 
+
+
+@media screen and (max-width: 2560px){
+    .infinity_slider img{
+        height: 1400px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 1400px;
+    }
+    
+    .btn_block{
+        height: 1400px;
+    }
+}
+
+
+@media screen and (max-width: 1840px){
+    .infinity_slider img{
+        height: 800px;
+    }
+    
+    .infinity_slider_wrap{
+        height: 800px;
+    }
+    
+    .btn_block{
+        height: 800px;
+    }
+}
+
+
 @media screen and (max-width: 768px){
     /*Slider*/
     .infinity_slider img{
@@ -149,7 +181,7 @@
     }
     
     .btn_slider{
-        padding: 100px 20px;
+        padding: 100px 0px;
     }
     
 /*Circle*/
@@ -158,27 +190,6 @@
     }
 }
 
-
-@media screen and (max-width: 2560px){
-    .infinity_slider img{
-        height: 1000px;
-    }
-    
-    .infinity_slider_wrap{
-        height: 1000px;
-    }
-}
-
-
-@media screen and (max-width: 2560px){
-    .infinity_slider img{
-        height: 800px;
-    }
-    
-    .infinity_slider_wrap{
-        height: 800px;
-    }
-}
 
 @media screen and (max-width: 640px){
        /*Slider*/
@@ -223,7 +234,7 @@
         margin: 0 0px;
         height: 20px;
         width: 20px;
-        padding: 100px 30px;
+        padding: 100px 0px;
     }
     
     
@@ -250,6 +261,7 @@
     
     .btn_slider{
         margin: 0 -25px;
+        padding: 100px 20px;
     }
     
     

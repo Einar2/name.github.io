@@ -53,6 +53,10 @@ if(step + 1 == images.length){
 },5000);
 
 
+
+//BTN
+
+
 document.querySelector(".left").onclick = function(){
     
     if(step - 1 == -1){
@@ -63,7 +67,16 @@ document.querySelector(".left").onclick = function(){
     }
     slider();
     clearInterval(time);
+    
+    //
+    
+    
+    
+    //
 };
+
+
+
 document.querySelector(".rigth").onclick = function(){
     if(step + 1 == images.length){
         step = 0;
@@ -73,5 +86,12 @@ document.querySelector(".rigth").onclick = function(){
     }
     slider();
     clearInterval(time);
+    
+    //
+    
+    
+    
+    
+    //
     
 };
